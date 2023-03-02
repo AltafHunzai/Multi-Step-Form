@@ -60,11 +60,11 @@
                         <div class="title">Basic Info:</div>
                         <div class="field">
                             <div class="label">First Name</div>
-                            <input type="text" required />
+                            <input type="text" maxlength="15" minlength="3" required />
                         </div>
                         <div class="field">
                             <div class="label">Last Name</div>
-                            <input type="text" required />
+                            <input type="text" maxlength="15" minlength="3" required />
                         </div>
                         <div class="field">
                             <button class="firstNext next">Next</button>
@@ -75,11 +75,11 @@
                         <div class="title">Contact Info:</div>
                         <div class="field">
                             <div class="label">Email Address</div>
-                            <input type="text" required />
+                            <input type="email" minlength="5" required />
                         </div>
                         <div class="field">
                             <div class="label">Phone Number</div>
-                            <input type="Number" required />
+                            <input type="number" maxlength="15" minlength="10" required />
                         </div>
                         <div class="field btns">
                             <button class="prev-1 prev">Previous</button>
@@ -90,11 +90,11 @@
                         <div class="title">Contact Info 2:</div>
                         <div class="field">
                             <div class="label">Email Address</div>
-                            <input type="text" required />
+                            <input type="email" maxlength="15" minlength="10" required />
                         </div>
                         <div class="field">
                             <div class="label">Phone Number</div>
-                            <input type="Number" required />
+                            <input type="number" maxlength="15" minlength="10" required />
                         </div>
                         <div class="field btns">
                             <button class="prev-2 prev">Previous</button>
@@ -105,11 +105,11 @@
                         <div class="title">Contact Info 3:</div>
                         <div class="field">
                             <div class="label">Email Address</div>
-                            <input type="text" required />
+                            <input type="email" maxlength="15" minlength="10" required />
                         </div>
                         <div class="field">
                             <div class="label">Phone Number</div>
-                            <input type="Number" required />
+                            <input type="number" required />
                         </div>
                         <div class="field btns">
                             <button class="prev-3 prev">Previous</button>
@@ -121,14 +121,14 @@
                         <div class="title">Date of Birth:</div>
                         <div class="field">
                             <div class="label">Date</div>
-                            <input type="text" required />
+                            <input type="date" required />
                         </div>
                         <div class="field">
                             <div class="label">Gender</div>
                             <select required>
-                                <option>Male</option>
-                                <option>Female</option>
-                                <option>Other</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
                             </select>
                         </div>
                         <div class="field btns">
