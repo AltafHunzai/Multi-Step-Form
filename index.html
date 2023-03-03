@@ -59,12 +59,12 @@
                     <div class="page slide-page">
                         <div class="title">Basic Info:</div>
                         <div class="field">
-                            <div class="label">First Name</div>
-                            <input type="text" maxlength="15" minlength="3" required />
+                            <label for="firstName" class="label">First Name</label>
+                            <input name="firstName" placeholder="Altaf" type="text" maxlength="15" minlength="3" required />
                         </div>
                         <div class="field">
-                            <div class="label">Last Name</div>
-                            <input type="text" maxlength="15" minlength="3" required />
+                            <label for="lastName" class="label">Last Name</label>
+                            <input name="lastName" placeholder="Hussain" type="text" maxlength="15" minlength="3" required />
                         </div>
                         <div class="field">
                             <button class="firstNext next">Next</button>
@@ -74,12 +74,12 @@
                     <div class="page">
                         <div class="title">Contact Info:</div>
                         <div class="field">
-                            <div class="label">Email Address</div>
-                            <input type="email" minlength="5" required />
+                            <label for="email" class="label">Email Address</label>
+                            <input name="email" placeholder="example@domain.com" type="email" minlength="5" required />
                         </div>
                         <div class="field">
-                            <div class="label">Phone Number</div>
-                            <input type="number" maxlength="15" minlength="10" required />
+                            <label for="phoneNumber" class="label">Phone Number</label>
+                            <input name="phoneNumber" placeholder="+92376518761" type="number" maxlength="15" minlength="10" required />
                         </div>
                         <div class="field btns">
                             <button class="prev-1 prev">Previous</button>
@@ -87,14 +87,14 @@
                         </div>
                     </div>
                     <div class="page">
-                        <div class="title">Contact Info 2:</div>
+                        <div class="title">Birth details:</div>
                         <div class="field">
-                            <div class="label">Email Address</div>
-                            <input type="email" maxlength="15" minlength="10" required />
+                            <label for="birthPlace" class="label">Birth Place</label>
+                            <input name="birthPlace" placeholder="Gilgit" type="text" maxlength="15" minlength="3" required />
                         </div>
                         <div class="field">
-                            <div class="label">Phone Number</div>
-                            <input type="number" maxlength="15" minlength="10" required />
+                            <label for="dateOfBirth" class="label">Date Of Birth</label>
+                            <input name="dateOfBirth" type="date" required />
                         </div>
                         <div class="field btns">
                             <button class="prev-2 prev">Previous</button>
@@ -102,14 +102,14 @@
                         </div>
                     </div>
                     <div class="page">
-                        <div class="title">Contact Info 3:</div>
+                        <div class="title">Job details:</div>
                         <div class="field">
-                            <div class="label">Email Address</div>
-                            <input type="email" maxlength="15" minlength="10" required />
+                            <label for="company" class="label">Name of Company</label>
+                            <input name="company" placeholder="Google" type="text" maxlength="15" minlength="5" required />
                         </div>
                         <div class="field">
-                            <div class="label">Phone Number</div>
-                            <input type="number" required />
+                            <label for="position" class="label">Your Position</label>
+                            <input name="position" placeholder="Director" type="text" minlength="5" maxlength="20" required />
                         </div>
                         <div class="field btns">
                             <button class="prev-3 prev">Previous</button>
